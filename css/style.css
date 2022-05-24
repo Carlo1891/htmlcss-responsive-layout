@@ -14,8 +14,16 @@
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .space {
     margin: 15px 0;
+}
+
+.center {
+    text-align: center;
 }
 
 /*
@@ -36,6 +44,22 @@ Large Desktop:  1200px */
 
 .fa-solid.fa-bars {
     font-size: 30px;
+}
+
+/* Main */
+
+.card-big {
+    border-radius: 30px;
+    margin: 20px 10px;
+}
+
+.phone{
+    margin: 0 auto;
+    width: 250px;
+}
+
+.blue {
+    background-color: rgb(183, 222, 254);
 }
 
 /* Footer */
