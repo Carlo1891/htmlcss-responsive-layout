@@ -10,6 +10,11 @@
     width: 100%;
 }
 
+.card {
+    border-radius: 30px;
+    line-height: 30px;
+}
+
 .flex {
     display: flex;
 }
@@ -19,11 +24,23 @@
 }
 
 .space {
-    margin: 15px 0;
+    margin: 15px 15px;
 }
 
 .center {
     text-align: center;
+}
+
+.l-h { 
+    line-height: 30px;
+}
+
+.white-txt {
+    color: white;
+}
+
+.lilac-txt {
+    color: #9792e4;
 }
 
 /*
@@ -46,11 +63,26 @@ Large Desktop:  1200px */
     font-size: 30px;
 }
 
-/* Main */
+.fa-solid {
+    font-size: 70px;
+    padding: 15px;
+}
+
+/* Main con icone */
 
 .card-big {
     border-radius: 30px;
-    margin: 20px 10px;
+    margin: 20px 15px;
+}
+
+.card-big > p {
+    padding: 15px;
+    line-height: 30px;
+}
+
+.blue-txt {
+    color: #0584fd;
+    padding: 15px;
 }
 
 .phone{
@@ -60,6 +92,44 @@ Large Desktop:  1200px */
 
 .blue {
     background-color: rgb(183, 222, 254);
+}
+
+.card > p {
+    padding: 15px;
+}
+
+/* Main con loghi e ancora */
+
+.purple-bg {
+    background-color: #9593e6;
+}
+
+.planning1 {
+    width: calc(100% - 30px);
+    margin: 15px 15px;
+}
+
+.box-anchor {
+    background-color: white;
+    margin: 15px 20px;
+    border-radius: 20px;
+}
+
+.planning2 {
+    width: calc(100% - 40px);
+}
+
+.fa-solid.fa-arrow-down {
+    margin-top: 40px;
+    font-size: 25px;
+    background-color: #9593e6;
+    border-radius: 50%;
+}
+
+/* Main con testimonials */
+
+.card > img {
+    object-fit: contain;
 }
 
 /* Footer */
